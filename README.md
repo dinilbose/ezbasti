@@ -1,2 +1,2 @@
 # ezbasti
-python query inter face for Basti Isochrones
+python query interface for Basti Isochrones
