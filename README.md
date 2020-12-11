@@ -78,7 +78,7 @@ http://basti-iac.oa-abruzzo.inaf.it/helpisocs.html
 "SAGE":SAGE
 "SkyMapper":SkyMapper
 "Sloan":Sloan
-<!"Spitzer_IRAC":Spitzer (IRAC)
+"Spitzer_IRAC":Spitzer (IRAC)
 :"Stromgren":Strömgren
 "Subaru_HSC":Subaru (HSC)
 "SWIFT_UVOT":SWIFT (UVOT)
