@@ -26,7 +26,7 @@ dataframe=data.to_pandas()
 ```
 * Isochrone with GAIA bands
 ```python
-data=get_one_isochrone(model='13',FeH=0.1,age=16e6,photometry='GAIADR2')
+data=get_one_isochrone(model='13',FeH=0.1,age=16e6,photometry='GAIA-DR2')
 ```
 
 
@@ -61,9 +61,9 @@ http://basti-iac.oa-abruzzo.inaf.it/helpisocs.html
 "2MASS":2MASS
 "DECAM":DECam
 "Euclid":Euclid (VIS+NISP)
-"GAIADR1":GAIA DR1
-"GAIADR2":GAIA DR2
-"GAIADR3":GAIA DR3
+"GAIA-DR1":GAIA DR1
+"GAIA-DR2":GAIA DR2
+"GAIA-DR3":GAIA DR3
 "GALEX":GALEX
 "Tycho":Hipparcos+Tycho
 "WFPC2":HST (WFPC2)

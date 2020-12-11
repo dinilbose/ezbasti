@@ -76,9 +76,9 @@ def get_one_isochrone(model='01',FeH=0.0,age=16e6,photometry='HR'):
     "2MASS":2MASS
     "DECAM":DECam
     "Euclid":Euclid (VIS+NISP)
-    "GAIADR1":GAIA DR1
-    "GAIADR2":GAIA DR2
-    "GAIADR3":GAIA DR3
+    "GAIA-DR1":GAIA DR1
+    "GAIA-DR2":GAIA DR2
+    "GAIA-DR3":GAIA DR3
     "GALEX":GALEX
     "Tycho":Hipparcos+Tycho
     "WFPC2":HST (WFPC2)
@@ -93,7 +93,7 @@ def get_one_isochrone(model='01',FeH=0.0,age=16e6,photometry='HR'):
     "SAGE":SAGE
     "SkyMapper":SkyMapper
     "Sloan":Sloan
-    <!"Spitzer_IRAC":Spitzer (IRAC)
+    "Spitzer_IRAC":Spitzer (IRAC)
     :"Stromgren":Strömgren
     "Subaru_HSC":Subaru (HSC)
     "SWIFT_UVOT":SWIFT (UVOT)
@@ -219,9 +219,9 @@ def print_photometric_system():
     "2MASS":2MASS\n
     "DECAM":DECam\n
     "Euclid":Euclid (VIS+NISP)\n
-    "GAIADR1":GAIA DR1\n
-    "GAIADR2":GAIA DR2\n
-    "GAIADR3":GAIA DR3\n
+    "GAIA-DR1":GAIA DR1\n
+    "GAIA-DR2":GAIA DR2\n
+    "GAIA-DR3":GAIA DR3\n
     "GALEX":GALEX\n
     "Tycho":Hipparcos+Tycho\n
     "WFPC2":HST (WFPC2)\n
@@ -247,4 +247,4 @@ def print_photometric_system():
     "WFIRST":WFIRST (WFI)\n
     "WISE":WISE\n
     '''
-    print('"HR":HR diagram\n"2MASS":2MASS\n"DECAM":DECam\n"Euclid":Euclid (VIS+NISP)\n"GAIADR1":GAIA DR1\n"GAIADR2":GAIA DR2\n"GAIADR3":GAIA DR3\n"GALEX":GALEX\n"Tycho":Hipparcos+Tycho\n"WFPC2":HST (WFPC2)\n"ACS":HST (ACS)\n"WFC3":HST (WFC3)\n"JPLUS":JPLUS\n"JohnsonCousins":JohnsonCousins\n"JWST_NIRCam":JWST (NIRCam)\n"JWST_NIRISS":JWST (NIRISS)\n"Kepler":Kepler\n"PanSTARSS1":PanSTARSS1\n"SAGE":SAGE\n"SkyMapper":SkyMapper\n"Sloan":Sloan\n<!"Spitzer_IRAC":Spitzer (IRAC)\n:"Stromgren":Strömgren\n"Subaru_HSC":Subaru (HSC)\n"SWIFT_UVOT":SWIFT (UVOT)\n"TESS":TESS\n"UVIT":UVIT (FUV+NUV+VIS)\n"LSST":Vera C. Rubin Obs. (LSST)\n"VISTA":VISTA\n"WFIRST":WFIRST (WFI)\n"WISE":WISE\n')
+    print('"HR":HR diagram\n"2MASS":2MASS\n"DECAM":DECam\n"Euclid":Euclid (VIS+NISP)\n"GAIA-DR1":GAIA DR1\n"GAIA-DR2":GAIA DR2\n"GAIA-DR3":GAIA DR3\n"GALEX":GALEX\n"Tycho":Hipparcos+Tycho\n"WFPC2":HST (WFPC2)\n"ACS":HST (ACS)\n"WFC3":HST (WFC3)\n"JPLUS":JPLUS\n"JohnsonCousins":JohnsonCousins\n"JWST_NIRCam":JWST (NIRCam)\n"JWST_NIRISS":JWST (NIRISS)\n"Kepler":Kepler\n"PanSTARSS1":PanSTARSS1\n"SAGE":SAGE\n"SkyMapper":SkyMapper\n"Sloan":Sloan\n<!"Spitzer_IRAC":Spitzer (IRAC)\n:"Stromgren":Strömgren\n"Subaru_HSC":Subaru (HSC)\n"SWIFT_UVOT":SWIFT (UVOT)\n"TESS":TESS\n"UVIT":UVIT (FUV+NUV+VIS)\n"LSST":Vera C. Rubin Obs. (LSST)\n"VISTA":VISTA\n"WFIRST":WFIRST (WFI)\n"WISE":WISE\n')
