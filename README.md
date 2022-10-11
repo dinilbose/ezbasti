@@ -18,7 +18,8 @@ USAGE
 -----
 * Basic example of downloading a single isochrones
 ```python
-data=get_one_isochrone(model='01',FeH=0.1,age=16e6,photometry='HR')
+import ezbasti
+data=ezbasti.get_one_isochrone(model='01',FeH=0.1,age=16e6,photometry='HR')
 ```
 gives astropy table. To convert to pandas table use
 ```
@@ -26,7 +27,8 @@ dataframe=data.to_pandas()
 ```
 * Isochrone with GAIA bands
 ```python
-data=get_one_isochrone(model='13',FeH=0.1,age=16e6,photometry='GAIA-DR2')
+import ezbasti
+data=ezbasti.get_one_isochrone(model='13',FeH=0.1,age=16e6,photometry='GAIA-DR2')
 ```
 
 
